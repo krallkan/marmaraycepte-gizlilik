@@ -1,0 +1,775 @@
+{
+ "version": 1,
+ "updated": "2026-11-19",
+ "source": "TCDD Taşımacılık yayımlanmış tarifesinden istasyon bazlı derlenmiştir (tahmini). Gerçek saatler farklılık gösterebilir.",
+ "headwayMin": 15,
+ "shortOffsetMin": 8,
+ "fullTripMin": 108,
+ "gebzeBound": {
+  "originFirst": "05:58",
+  "originLast": "23:28",
+  "weekendExtra": [
+   "23:58",
+   "00:28",
+   "00:58",
+   "01:28"
+  ],
+  "shortFrom": "ataky",
+  "shortTo": "pendk",
+  "shortLastAtFrom": "21:54"
+ },
+ "halkaliBound": {
+  "originFirst": "06:05",
+  "originLast": "23:20",
+  "weekendExtra": [
+   "23:50",
+   "00:20",
+   "00:50",
+   "01:20"
+  ],
+  "shortFrom": "pendk",
+  "shortTo": "ataky",
+  "shortLastAtFrom": "20:39"
+ },
+ "stations": [
+  {
+   "id": "hlkli",
+   "name": "Halkalı",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 0,
+   "h": 108,
+   "tr": [
+    [
+     "M1B",
+     "Metro"
+    ],
+    [
+     "M11",
+     "Metro"
+    ],
+    [
+     "YHT",
+     "Yüksek hızlı tren"
+    ]
+   ],
+   "lat": 41.01837,
+   "lon": 28.76646,
+   "fg": "05:58",
+   "fh": null,
+   "pf": 1
+  },
+  {
+   "id": "mkeml",
+   "name": "Mustafa Kemal",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 3,
+   "h": 105,
+   "tr": [],
+   "lat": 41.00615,
+   "lon": 28.77391,
+   "fg": "06:01",
+   "fh": "06:22",
+   "pf": 1
+  },
+  {
+   "id": "kcekm",
+   "name": "Küçükçekmece",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 5,
+   "h": 102,
+   "tr": [],
+   "lat": 40.98852,
+   "lon": 28.77294,
+   "fg": "06:03",
+   "fh": "06:19",
+   "pf": 1
+  },
+  {
+   "id": "flrya",
+   "name": "Florya",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 8,
+   "h": 99,
+   "tr": [],
+   "lat": 40.97291,
+   "lon": 28.78757,
+   "fg": "06:06",
+   "fh": "06:16",
+   "pf": 1
+  },
+  {
+   "id": "flakv",
+   "name": "Florya Akvaryum",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 10,
+   "h": 97,
+   "tr": [],
+   "lat": 40.96784,
+   "lon": 28.79698,
+   "fg": "06:08",
+   "fh": "06:14",
+   "pf": 1
+  },
+  {
+   "id": "yslky",
+   "name": "Yeşilköy",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 13,
+   "h": 94,
+   "tr": [],
+   "lat": 40.96265,
+   "lon": 28.82492,
+   "fg": "06:11",
+   "fh": "06:11",
+   "pf": 1
+  },
+  {
+   "id": "yslyt",
+   "name": "Yeşilyurt",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 15,
+   "h": 92,
+   "tr": [],
+   "lat": 40.96534,
+   "lon": 28.83708,
+   "fg": "06:13",
+   "fh": "06:09",
+   "pf": 1
+  },
+  {
+   "id": "ataky",
+   "name": "Ataköy",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 18,
+   "h": 89,
+   "tr": [
+    [
+     "M9",
+     "Metro"
+    ]
+   ],
+   "lat": 40.98022,
+   "lon": 28.85619,
+   "fg": "06:02",
+   "fh": "06:06",
+   "pf": 1
+  },
+  {
+   "id": "bkrky",
+   "name": "Bakırköy",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 21,
+   "h": 87,
+   "tr": [
+    [
+     "M3",
+     "Metro"
+    ]
+   ],
+   "lat": 40.98031,
+   "lon": 28.87256,
+   "fg": "06:05",
+   "fh": "06:04",
+   "pf": 1
+  },
+  {
+   "id": "ynmhl",
+   "name": "Yenimahalle",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 23,
+   "h": 85,
+   "tr": [],
+   "lat": 40.98172,
+   "lon": 28.88105,
+   "fg": "06:07",
+   "fh": "06:02",
+   "pf": 1
+  },
+  {
+   "id": "zytbr",
+   "name": "Zeytinburnu",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 26,
+   "h": 82,
+   "tr": [],
+   "lat": 40.9859,
+   "lon": 28.90546,
+   "fg": "06:10",
+   "fh": "06:12",
+   "pf": 1
+  },
+  {
+   "id": "kzlcs",
+   "name": "Kazlıçeşme",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": false,
+   "g": 28,
+   "h": 80,
+   "tr": [],
+   "lat": 40.99268,
+   "lon": 28.91689,
+   "fg": "06:12",
+   "fh": "06:10",
+   "pf": 1
+  },
+  {
+   "id": "ynkpi",
+   "name": "Yenikapı",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": true,
+   "g": 32,
+   "h": 76,
+   "tr": [
+    [
+     "M1A",
+     "Metro"
+    ],
+    [
+     "M1B",
+     "Metro"
+    ],
+    [
+     "M2",
+     "Metro"
+    ],
+    [
+     "İDO",
+     "Deniz otobüsü"
+    ]
+   ],
+   "lat": 41.00478,
+   "lon": 28.95249,
+   "fg": "06:00",
+   "fh": "06:06",
+   "pf": 3
+  },
+  {
+   "id": "srkci",
+   "name": "Sirkeci",
+   "side": "avrupa",
+   "city": "İstanbul",
+   "under": true,
+   "g": 35,
+   "h": 73,
+   "tr": [
+    [
+     "T1",
+     "Tramvay"
+    ],
+    [
+     "Vapur",
+     "Eminönü iskelesi"
+    ]
+   ],
+   "lat": 41.01361,
+   "lon": 28.97699,
+   "fg": "06:03",
+   "fh": "06:03",
+   "pf": 4
+  },
+  {
+   "id": "uskdr",
+   "name": "Üsküdar",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": true,
+   "g": 39,
+   "h": 69,
+   "tr": [
+    [
+     "M5",
+     "Metro"
+    ],
+    [
+     "Vapur",
+     "Üsküdar iskelesi"
+    ]
+   ],
+   "lat": 41.0258,
+   "lon": 29.01405,
+   "fg": "06:07",
+   "fh": "05:59",
+   "pf": 4
+  },
+  {
+   "id": "ayrlk",
+   "name": "Ayrılık Çeşmesi",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": true,
+   "g": 43,
+   "h": 65,
+   "tr": [
+    [
+     "M4",
+     "Metro"
+    ]
+   ],
+   "lat": 41.00019,
+   "lon": 29.03012,
+   "fg": "06:11",
+   "fh": "06:10",
+   "pf": 3
+  },
+  {
+   "id": "sgtlc",
+   "name": "Söğütlüçeşme",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 46,
+   "h": 62,
+   "tr": [
+    [
+     "MB",
+     "Metrobüs"
+    ],
+    [
+     "YHT",
+     "Yüksek hızlı tren"
+    ]
+   ],
+   "lat": 40.991,
+   "lon": 29.03765,
+   "fg": "06:00",
+   "fh": "06:07",
+   "pf": 1
+  },
+  {
+   "id": "fnryl",
+   "name": "Feneryolu",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 48,
+   "h": 59,
+   "tr": [],
+   "lat": 40.97884,
+   "lon": 29.04864,
+   "fg": "06:02",
+   "fh": "06:04",
+   "pf": 1
+  },
+  {
+   "id": "gztpe",
+   "name": "Göztepe",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 50,
+   "h": 57,
+   "tr": [],
+   "lat": 40.97915,
+   "lon": 29.06263,
+   "fg": "06:04",
+   "fh": "06:02",
+   "pf": 1
+  },
+  {
+   "id": "ernky",
+   "name": "Erenköy",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 52,
+   "h": 55,
+   "tr": [],
+   "lat": 40.97163,
+   "lon": 29.07637,
+   "fg": "06:06",
+   "fh": "06:00",
+   "pf": 1
+  },
+  {
+   "id": "sadye",
+   "name": "Suadiye",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 55,
+   "h": 52,
+   "tr": [],
+   "lat": 40.96048,
+   "lon": 29.08456,
+   "fg": "06:09",
+   "fh": "06:13",
+   "pf": 1
+  },
+  {
+   "id": "bstnc",
+   "name": "Bostancı",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 57,
+   "h": 50,
+   "tr": [
+    [
+     "M8",
+     "Metro"
+    ]
+   ],
+   "lat": 40.95416,
+   "lon": 29.09411,
+   "fg": "06:11",
+   "fh": "06:11",
+   "pf": 1
+  },
+  {
+   "id": "kcyli",
+   "name": "Küçükyalı",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 60,
+   "h": 47,
+   "tr": [],
+   "lat": 40.94624,
+   "lon": 29.1069,
+   "fg": "06:14",
+   "fh": "06:08",
+   "pf": 1
+  },
+  {
+   "id": "idltp",
+   "name": "İdealtepe",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 62,
+   "h": 45,
+   "tr": [],
+   "lat": 40.93787,
+   "lon": 29.11415,
+   "fg": "06:00",
+   "fh": "06:06",
+   "pf": 1
+  },
+  {
+   "id": "srypl",
+   "name": "Süreyya Plajı",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 64,
+   "h": 43,
+   "tr": [],
+   "lat": 40.92681,
+   "lon": 29.1242,
+   "fg": "06:02",
+   "fh": "06:04",
+   "pf": 1
+  },
+  {
+   "id": "mltpe",
+   "name": "Maltepe",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 66,
+   "h": 41,
+   "tr": [],
+   "lat": 40.92061,
+   "lon": 29.13358,
+   "fg": "06:04",
+   "fh": "06:02",
+   "pf": 1
+  },
+  {
+   "id": "cvzli",
+   "name": "Cevizli",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 69,
+   "h": 38,
+   "tr": [],
+   "lat": 40.91042,
+   "lon": 29.15574,
+   "fg": "06:07",
+   "fh": "06:14",
+   "pf": 1
+  },
+  {
+   "id": "atlar",
+   "name": "Atalar",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 71,
+   "h": 36,
+   "tr": [],
+   "lat": 40.8984,
+   "lon": 29.16959,
+   "fg": "06:09",
+   "fh": "06:12",
+   "pf": 1
+  },
+  {
+   "id": "basak",
+   "name": "Başak",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 73,
+   "h": 34,
+   "tr": [],
+   "lat": 40.8904,
+   "lon": 29.1774,
+   "fg": "06:11",
+   "fh": "06:10",
+   "pf": 1
+  },
+  {
+   "id": "krtal",
+   "name": "Kartal",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 75,
+   "h": 32,
+   "tr": [],
+   "lat": 40.88858,
+   "lon": 29.19118,
+   "fg": "06:13",
+   "fh": "06:08",
+   "pf": 1
+  },
+  {
+   "id": "yunus",
+   "name": "Yunus",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 78,
+   "h": 29,
+   "tr": [],
+   "lat": 40.88456,
+   "lon": 29.21042,
+   "fg": "06:02",
+   "fh": "06:05",
+   "pf": 1
+  },
+  {
+   "id": "pendk",
+   "name": "Pendik",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 81,
+   "h": 26,
+   "tr": [
+    [
+     "YHT",
+     "Yüksek hızlı tren"
+    ]
+   ],
+   "lat": 40.88029,
+   "lon": 29.23159,
+   "fg": "06:05",
+   "fh": "06:02",
+   "pf": 1
+  },
+  {
+   "id": "kynrc",
+   "name": "Kaynarca",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 84,
+   "h": 23,
+   "tr": [],
+   "lat": 40.87138,
+   "lon": 29.25594,
+   "fg": "06:08",
+   "fh": "06:14",
+   "pf": 1
+  },
+  {
+   "id": "trsne",
+   "name": "Tersane",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 86,
+   "h": 21,
+   "tr": [],
+   "lat": 40.86111,
+   "lon": 29.27323,
+   "fg": "06:10",
+   "fh": "06:12",
+   "pf": 1
+  },
+  {
+   "id": "gzyli",
+   "name": "Güzelyalı",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 88,
+   "h": 19,
+   "tr": [],
+   "lat": 40.85685,
+   "lon": 29.28351,
+   "fg": "06:12",
+   "fh": "06:10",
+   "pf": 1
+  },
+  {
+   "id": "aydtp",
+   "name": "Aydıntepe",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 90,
+   "h": 17,
+   "tr": [],
+   "lat": 40.85222,
+   "lon": 29.2932,
+   "fg": "06:14",
+   "fh": "06:08",
+   "pf": 1
+  },
+  {
+   "id": "icmlr",
+   "name": "İçmeler",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 92,
+   "h": 15,
+   "tr": [
+    [
+     "M4",
+     "Metro"
+    ]
+   ],
+   "lat": 40.84566,
+   "lon": 29.30005,
+   "fg": "06:16",
+   "fh": "06:06",
+   "pf": 1
+  },
+  {
+   "id": "tuzla",
+   "name": "Tuzla",
+   "side": "asya",
+   "city": "İstanbul",
+   "under": false,
+   "g": 95,
+   "h": 12,
+   "tr": [],
+   "lat": 40.83004,
+   "lon": 29.32225,
+   "fg": "06:19",
+   "fh": "06:03",
+   "pf": 1
+  },
+  {
+   "id": "cyrva",
+   "name": "Çayırova",
+   "side": "asya",
+   "city": "Kocaeli",
+   "under": false,
+   "g": 98,
+   "h": 8,
+   "tr": [],
+   "lat": 40.81057,
+   "lon": 29.34741,
+   "fg": "06:22",
+   "fh": "06:13",
+   "pf": 1
+  },
+  {
+   "id": "fatih",
+   "name": "Fatih",
+   "side": "asya",
+   "city": "Kocaeli",
+   "under": false,
+   "g": 101,
+   "h": 6,
+   "tr": [],
+   "lat": 40.80767,
+   "lon": 29.3639,
+   "fg": "06:25",
+   "fh": "06:11",
+   "pf": 1
+  },
+  {
+   "id": "osmgz",
+   "name": "Osmangazi",
+   "side": "asya",
+   "city": "Kocaeli",
+   "under": false,
+   "g": 103,
+   "h": 4,
+   "tr": [],
+   "lat": 40.79909,
+   "lon": 29.38022,
+   "fg": "06:27",
+   "fh": "06:09",
+   "pf": 1
+  },
+  {
+   "id": "darca",
+   "name": "Darıca",
+   "side": "asya",
+   "city": "Kocaeli",
+   "under": false,
+   "g": 105,
+   "h": 2,
+   "tr": [],
+   "lat": 40.79145,
+   "lon": 29.39186,
+   "fg": "06:29",
+   "fh": "06:07",
+   "pf": 1
+  },
+  {
+   "id": "gebze",
+   "name": "Gebze",
+   "side": "asya",
+   "city": "Kocaeli",
+   "under": false,
+   "g": 108,
+   "h": 0,
+   "tr": [
+    [
+     "YHT",
+     "Yüksek hızlı tren"
+    ]
+   ],
+   "lat": 40.78363,
+   "lon": 29.41152,
+   "fg": null,
+   "fh": "06:05",
+   "pf": 1
+  }
+ ],
+ "coordsSource": "Wikidata (CC0)",
+ "platformNote": "pf: istasyon girişinden perona yürüme süresi (dk). Yeraltı istasyonlarında uzun yürüyen merdivenler nedeniyle daha uzun. Sahada ölçüldükçe güncellenir."
+}
